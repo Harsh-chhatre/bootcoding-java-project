@@ -1,7 +1,6 @@
-package com.bootcoding.project;
+package com.bootcoding.project.model;
 
 public class Vendor {
-
     int id;
     String name;
     String address;

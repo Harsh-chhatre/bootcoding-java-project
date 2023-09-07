@@ -1,9 +1,8 @@
-package com.bootcoding.project;
+package com.bootcoding.project.model;
 
-public class Menutem {
-
+public class MenuItem {
     int id;
-    String menuname;
+    String menuName;
     boolean isVeg;
     double price;
     String flavour;
@@ -16,12 +15,12 @@ public class Menutem {
         this.id = id;
     }
 
-    public String getMenuname() {
-        return menuname;
+    public String getMenuName() {
+        return menuName;
     }
 
-    public void setMenuname(String menuname) {
-        this.menuname = menuname;
+    public void setMenuName(String menuName) {
+        this.menuName = menuName;
     }
 
     public boolean isVeg() {
@@ -48,4 +47,3 @@ public class Menutem {
         this.flavour = flavour;
     }
 }
-

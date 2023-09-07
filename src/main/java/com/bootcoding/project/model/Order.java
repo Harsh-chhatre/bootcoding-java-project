@@ -1,14 +1,11 @@
-package com.bootcoding.project;
-
+package com.bootcoding.project.model;
 import java.util.Date;
-
 public class Order {
-
     int id;
     String deliveryAddress;
-    Date orderdate;
-    Double amount;
-    String restaurentName;
+    Date orderDate;
+    double amount;
+    String restaurantName;
     long contact;
     String customerName;
 
@@ -28,28 +25,28 @@ public class Order {
         this.deliveryAddress = deliveryAddress;
     }
 
-    public Date getOrderdate() {
-        return orderdate;
+    public Date getOrderDate() {
+        return orderDate;
     }
 
-    public void setOrderdate(Date orderdate) {
-        this.orderdate = orderdate;
+    public void setOrderDate(Date orderDate) {
+        this.orderDate = orderDate;
     }
 
-    public Double getAmount() {
+    public double getAmount() {
         return amount;
     }
 
-    public void setAmount(Double amount) {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
 
-    public String getRestaurentName() {
-        return restaurentName;
+    public String getRestaurantName() {
+        return restaurantName;
     }
 
-    public void setRestaurentName(String restaurentName) {
-        this.restaurentName = restaurentName;
+    public void setRestaurantName(String restaurantName) {
+        this.restaurantName = restaurantName;
     }
 
     public long getContact() {

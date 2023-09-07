@@ -1,10 +1,9 @@
-package com.bootcoding.project;
+package com.bootcoding.project.model;
 
 public class Customer {
-
     int id;
     String name;
-    String Address;
+    String address;
     long phone;
     String city;
 
@@ -25,11 +24,11 @@ public class Customer {
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     public void setAddress(String address) {
-        Address = address;
+        this.address = address;
     }
 
     public long getPhone() {
