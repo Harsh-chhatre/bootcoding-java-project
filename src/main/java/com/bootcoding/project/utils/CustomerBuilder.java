@@ -7,7 +7,7 @@ public class CustomerBuilder {
 
     public static Customer build() {
         Customer customer = new Customer();
-//        customer.setCustomerId(100 + random.nextInt(500));
+//         customer.setCustomerId(100 + random.nextInt(500));
         return customer;
     }
 }
