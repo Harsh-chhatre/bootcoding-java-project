@@ -51,11 +51,11 @@ public class CustomerDAO {
 
         // Database Connectivity in Java
         // Total 5 steps
-        // 1. Load JDBC Driver into Memory
-        // 2. Create Database Connection
-        // 3. Create Statement to write a SQL Query
-        // 4. Get Result into ResultSet
-        // 5. Close DB Connection
+        // 1.  Load JDBC Driver into Memory
+        // 2.  Create Database Connection
+        // 3.  Create Statement to write a SQL Query
+        // 4.  Get Result into ResultSet
+        // 5.  Close DB Connection
         try{
             // 1. Load JDBC Driver into Memory
             Class.forName("org.postgresql.Driver");
