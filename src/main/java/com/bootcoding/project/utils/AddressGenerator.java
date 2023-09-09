@@ -17,7 +17,7 @@ public class AddressGenerator {
         return address;
     }
 
-    // API - Application Programming Interface
+    //  API - Application Programming Interface
     public static void main(String[] args) {
         System.out.println(AddressGenerator.getAddress());
     }

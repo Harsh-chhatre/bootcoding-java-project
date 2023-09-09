@@ -23,7 +23,7 @@ public class DateGenerator {
 
     public static void main(String[] args) {
         long aDay = TimeUnit.DAYS.toMillis(1); // 1 day
-        long now = new Date().getTime(); // current time
+        long now = new Date().getTime(); //  current time
         Date tenDaysAgo = new Date(now - aDay * 10);
         Date oneYearAgo = new Date(now - aDay * 365);
         for (int i = 0; i < 100; i++) {

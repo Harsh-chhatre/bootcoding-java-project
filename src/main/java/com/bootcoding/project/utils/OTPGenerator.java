@@ -13,9 +13,9 @@ public class OTPGenerator {
         return otp;
     }
 
-    // Signature
-    // Implementation
-    // Calling - Invoation
+    //  Signature
+    //  Implementation
+    //  Calling - Invoation
 
     public static void main(String[] args) {
         for (int i = 0; i < 100; i++) {

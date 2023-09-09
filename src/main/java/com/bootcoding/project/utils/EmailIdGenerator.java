@@ -18,3 +18,14 @@ public class EmailIdGenerator {
         System.out.println(EmailIdGenerator.getEmailId("chetana"));
     }
 }
+
+
+
+
+
+
+
+
+
+
+//
